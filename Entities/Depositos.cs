@@ -16,7 +16,7 @@ namespace Entities
         public DateTime Fecha { get; set; }                   
         public int CuentaId { get; set; }
         public string Concepto { get; set; }
-        public decimal Monto { get; set; }
+        public int Monto { get; set; }
 
         [ForeignKey("CunetaId")]
         public virtual CuentasBancarias CuentaBancaria { get; set; }

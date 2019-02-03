@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class Repositorio<T> : IDisposable, IRepository<T> where T : class
+    public class RepositorioBase<T> : IDisposable, IRepository<T> where T : class
     {
         internal Contexto _contexto;
 
-        public Repositorio()
+        public RepositorioBase()
         {
             _contexto = new Contexto();
         }

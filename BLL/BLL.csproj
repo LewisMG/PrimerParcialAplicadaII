@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DepositoReposito.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositorioBase.cs" />
@@ -60,6 +61,10 @@
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{3D958656-B567-42E0-AF9D-E73FEE6DBFA0}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{B7801BDB-58F8-4EE4-BD0F-31F0673A595F}</Project>
+      <Name>Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
