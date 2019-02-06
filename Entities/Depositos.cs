@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    [Serializable]
     public class Depositos
     {
         [Key]
@@ -17,9 +16,6 @@ namespace Entities
         public int CuentaId { get; set; }
         public string Concepto { get; set; }
         public int Monto { get; set; }
-
-        [ForeignKey("CunetaId")]
-        public virtual CuentasBancarias CuentaBancaria { get; set; }
 
         public Depositos()
         {
@@ -30,7 +26,7 @@ namespace Entities
             Monto = 0;
         }
 
-        public Depositos(int depositoId, DateTime fecha, int cuentaId, string concepto, decimal monto)
+        public Depositos(int depositoId, DateTime fecha, int cuentaId, string concepto, int monto)
         {
             DepositoId = depositoId;
             Fecha = fecha;

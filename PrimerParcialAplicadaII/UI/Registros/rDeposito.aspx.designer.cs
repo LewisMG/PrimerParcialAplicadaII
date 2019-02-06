@@ -22,6 +22,24 @@ namespace PrimerParcialAplicadaII.UI.Registros {
         protected global::System.Web.UI.WebControls.TextBox DepositoidTextBox;
         
         /// <summary>
+        /// DepositoidRequiredFieldValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator DepositoidRequiredFieldValidator;
+        
+        /// <summary>
+        /// RegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator;
+        
+        /// <summary>
         /// BuscarButton control.
         /// </summary>
         /// <remarks>
@@ -58,6 +76,24 @@ namespace PrimerParcialAplicadaII.UI.Registros {
         protected global::System.Web.UI.WebControls.TextBox ConceptoTextBox;
         
         /// <summary>
+        /// ConceptoRequiredFieldValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ConceptoRequiredFieldValidator;
+        
+        /// <summary>
+        /// ConceptoRegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator ConceptoRegularExpressionValidator;
+        
+        /// <summary>
         /// MontoTextBox control.
         /// </summary>
         /// <remarks>
@@ -67,31 +103,22 @@ namespace PrimerParcialAplicadaII.UI.Registros {
         protected global::System.Web.UI.WebControls.TextBox MontoTextBox;
         
         /// <summary>
-        /// BtnAgregar control.
+        /// MontoRequiredFieldValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnAgregar;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator MontoRequiredFieldValidator;
         
         /// <summary>
-        /// DepositoGridView control.
+        /// MontoRegularExpressionValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DepositoGridView;
-        
-        /// <summary>
-        /// TotalTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TotalTextBox;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator MontoRegularExpressionValidator;
         
         /// <summary>
         /// BtnNuevo control.

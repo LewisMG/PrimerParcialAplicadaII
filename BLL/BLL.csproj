@@ -48,8 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DepositoReposito.cs" />
+    <Compile Include="DepositoRepositorio.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="MetodosConsultas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositorioBase.cs" />
   </ItemGroup>

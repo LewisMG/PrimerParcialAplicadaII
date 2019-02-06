@@ -74,6 +74,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="jquery\jquery-1.10.2.js" />
+    <Content Include="jquery\jquery-ui-1.10.4.custom.js" />
+    <Content Include="jquery\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="UI\Consultas\cCuentaBancaria.aspx" />
+    <Content Include="UI\Consultas\cDeposito.aspx" />
     <Content Include="UI\Registros\rCuentasBancarias.aspx" />
     <Content Include="UI\Registros\rDeposito.aspx" />
     <Content Include="Web.config" />
@@ -90,6 +95,20 @@
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Consultas\cCuentaBancaria.aspx.cs">
+      <DependentUpon>cCuentaBancaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Consultas\cCuentaBancaria.aspx.designer.cs">
+      <DependentUpon>cCuentaBancaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Consultas\cDeposito.aspx.cs">
+      <DependentUpon>cDeposito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Consultas\cDeposito.aspx.designer.cs">
+      <DependentUpon>cDeposito.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\Registros\rCuentasBancarias.aspx.cs">
       <DependentUpon>rCuentasBancarias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

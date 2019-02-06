@@ -22,6 +22,24 @@ namespace PrimerParcialAplicadaII.UI.Registros {
         protected global::System.Web.UI.WebControls.TextBox CBTextBox;
         
         /// <summary>
+        /// CBTextBoxRequiredFieldValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator CBTextBoxRequiredFieldValidator;
+        
+        /// <summary>
+        /// CBTextBoxRegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator CBTextBoxRegularExpressionValidator;
+        
+        /// <summary>
         /// BuscarButton control.
         /// </summary>
         /// <remarks>
@@ -47,6 +65,24 @@ namespace PrimerParcialAplicadaII.UI.Registros {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox NombreTextBox;
+        
+        /// <summary>
+        /// NombreRequiredFieldValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator NombreRequiredFieldValidator;
+        
+        /// <summary>
+        /// NombreRegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator NombreRegularExpressionValidator;
         
         /// <summary>
         /// BalanceTextBox control.
