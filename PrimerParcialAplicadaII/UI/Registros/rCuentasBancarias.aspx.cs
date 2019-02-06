@@ -52,6 +52,7 @@ namespace PrimerParcialAplicadaII.UI.Registros
                 if (cuentasbancarias != null)
                 {
                     LlenaCampos(cuentasbancarias);
+                    Utils.ShowToastr(this, "Encontrado!!", "Exito", "info");
                 }
                 else
                 {

@@ -72,7 +72,6 @@ namespace PrimerParcialAplicadaII.UI.Registros
             if (depositos != null)
             {
                 LlenarCampos(depositos);
-
                 Utils.ShowToastr(this, "Encontrado!!", "Exito", "info");
             }
             else
