@@ -12,9 +12,9 @@
                 <asp:Label Text="Filtro" ForeColor="#0099FF" runat="server" />
                 <asp:DropDownList ID="FiltroDropDownList" CssClass="form-control" runat="server">
                     <asp:ListItem>Todo</asp:ListItem>
+                    <asp:ListItem>Todo por Fecha</asp:ListItem>
                     <asp:ListItem>CuentaId</asp:ListItem>
                     <asp:ListItem>Nombre</asp:ListItem>
-                    <asp:ListItem>Balance</asp:ListItem>
                 </asp:DropDownList>
             </div>
             <div class="form-group col-md-3">
@@ -40,10 +40,10 @@
         <hr>
 
         <div class="form-row justify-content-center">
-            <asp:GridView ID="UsuarioGridView" runat="server" class="table table-condensed table-bordered table-responsive" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None">
+            <asp:GridView ID="CBGridView" runat="server" class="table table-condensed table-bordered table-responsive" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="LightSkyBlue" />
                 <Columns>
-                    <asp:BoundField DataField="CuentaId" HeaderText="Cuenta Id" />
+                    <asp:BoundField DataField="CuentaBancariaId" HeaderText="Cuenta Id" />
                     <asp:BoundField DataField="Fecha" HeaderText="Fecha" />
                     <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
                     <asp:BoundField DataField="Balance" HeaderText="Balance" />

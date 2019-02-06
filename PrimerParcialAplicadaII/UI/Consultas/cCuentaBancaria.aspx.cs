@@ -34,8 +34,8 @@ namespace PrimerParcialAplicadaII.UI.Consultas
             int index = ToInt(FiltroDropDownList.SelectedIndex);
             DateTime desde = Utils.ToDateTime(DesdeTextBox.Text);
             DateTime hasta = Utils.ToDateTime(HastaTextBox.Text);
-            UsuarioGridView.DataSource = MetodosConsultas.FiltrarCuentas(index, CriterioTextBox.Text, desde, hasta);
-            UsuarioGridView.DataBind();
+            CBGridView.DataSource = MetodosConsultas.FiltrarCuentas(index, CriterioTextBox.Text, desde, hasta);
+            CBGridView.DataBind();
 
             CriterioTextBox.Text = FiltroDropDownList.Text.ToString();
         }
